@@ -31,4 +31,5 @@ function desencriptar() {
 function copy() {
 	var contenido = document.querySelector("#texto2");
 	contenido.select();
+	document.execCommand("copy");
 }
